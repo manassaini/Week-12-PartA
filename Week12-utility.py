@@ -43,3 +43,12 @@ def Intersection(players, players2):
         for y in players2:
             if x == y: 
                 print ("OUTPUT", x)
+
+#THIS DOES NOT WORK
+def NotIn(players, players2):
+    players = ["Mary", "Cody", "Joe", "Jill", "Xai", "Bodo"]
+    players2 = ["Melvin", "Martian", "Baka", "Xai", "Cody"]
+    for x in players:
+        for y in players2:
+            if x != y: 
+                print ("OUTPUT", x)
