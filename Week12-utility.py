@@ -15,3 +15,9 @@ def LoadFile(filename):
     content = read_file.read()
     all_words = content.split()
     print ("OUTPUT", all_words)
+
+#this works
+def UpdateString(s1, l1, index):
+    output = ""
+    output = s1.replace(s1[index], l1)
+    print (output)
