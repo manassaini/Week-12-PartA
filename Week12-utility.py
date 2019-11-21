@@ -33,6 +33,7 @@ def FindWordCount(list_, string):
                 word_counter += 1
     print (word_counter)
 
+def ScoreFinder():
 def Union():
 
 #this works
