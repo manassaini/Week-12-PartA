@@ -32,3 +32,5 @@ def FindWordCount(list_, string):
             if y == string:
                 word_counter += 1
     print (word_counter)
+
+def Union():
