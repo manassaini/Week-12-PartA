@@ -21,3 +21,14 @@ def UpdateString(s1, l1, index):
     output = ""
     output = s1.replace(s1[index], l1)
     print (output)
+
+#THIS DOES NOT WORK
+def FindWordCount(list_, string):
+    word_counter = 0
+    for i in range(0, len(list_)):
+        list_[i] = list_[i].split()
+    for x in list_:
+        for y in x:
+            if y == string:
+                word_counter += 1
+    print (word_counter)
